@@ -1,0 +1,67 @@
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.about-image{
+    width: 90%;
+    margin: 0 auto;
+    border: 70px solid #ffffff;
+    box-shadow: 0 5px 20px rgb(77 91 120 / 10%);
+}
+.about-image img{
+    width: 100%;
+}
+.about-dec h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.about-dec h5{
+    margin: 0;
+    font-family: 'Enriqueta', serif;
+    font-weight: normal;
+    color: #000;
+}
+.about-dec p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #777777;
+    line-height: 25px;
+    font-family: 'Work Sans', sans-serif;
+}
+.about-dec h6{
+    font-size: 15px;
+    margin: 10px 0;
+    color: #777777;
+}
+.fa-check-circle{
+    color: #2c7ae7;
+    margin-right: 10px;
+}
+.about-dec .button{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.button{
+    display: inline-block;
+    padding: 8px 25px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    border: 1px solid #d4d4d4;
+    background: transparent;
+    transition: all 500ms ease;
+    cursor: pointer;
+    color: #000;
+}
+.button a{
+    text-decoration: none !important;
+}
