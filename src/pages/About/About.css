@@ -34,20 +34,11 @@
     line-height: 25px;
     font-family: 'Work Sans', sans-serif;
 }
-.about-dec h6{
-    font-size: 15px;
-    margin: 10px 0;
-    color: #777777;
-}
-.fa-check-circle{
-    color: #2c7ae7;
-    margin-right: 10px;
-}
-.about-dec .button{
+/* .about-sec{
     margin-top: 25px;
     margin-right: 10px;
-}
-.button{
+} */
+/* Link .about-sec{
     display: inline-block;
     padding: 8px 25px;
     text-align: center;
@@ -61,7 +52,5 @@
     transition: all 500ms ease;
     cursor: pointer;
     color: #000;
-}
-.button a{
     text-decoration: none !important;
-}
+} */

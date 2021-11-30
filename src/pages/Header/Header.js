@@ -1,21 +1,37 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Header.css'
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+    const [navbar, setNavbar] = useState("navbar")
+
+    const listenScrollEvent = (event) => {
+        if (window.scrollY < 73) {
+            return setNavbar("navbar")
+        } else if (window.scrollY > 70) {
+            return setNavbar("header2")
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', listenScrollEvent);
+
+        return () =>
+            window.removeEventListener('scroll', listenScrollEvent);
+    }, []);
 
     return (
         <>
             <div className="banner">
-                <Navbar collapseOnSelect expand="lg" sticky="top" className="background">
+                <Navbar collapseOnSelect expand="lg" sticky="top" className={navbar}>
                     <div className="container mx-auto">
-                        <Link className="navbar-brand" activeClassName="active" to="/home"><span className="logo-text">SHOHEL RANA</span></Link>
+                        <Link className="navbar-brand" to="/home"><span className="logo-text">SHOHEL RANA</span></Link>
                         <Navbar.Toggle />
                         <Navbar.Collapse>
                             <Nav className="nav-bar">
                                 <Nav.Item>
-                                    <Nav.Link className="nav-text active" aria-current="page" eventKey="1" as={Link} to="/Home">
+                                    <Nav.Link className="nav-text" aria-current="page" eventKey="1" as={Link} to="/Home">
                                         <span className="nav-text">HOME</span>
                                     </Nav.Link>
                                 </Nav.Item>
@@ -26,7 +42,7 @@ const Header = () => {
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link className="nav-text" eventKey="3" as={Link} to="/services">
-                                        <span className="nav-text">SERVICES</span>
+                                        <span className="nav-text">FEATURES</span>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
@@ -45,9 +61,7 @@ const Header = () => {
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link className="nav-text" eventKey="6" as={Link} target="_blank" rel="norefferer" to="https://drive.google.com/uc?export=download&id=1jwj9JJtmdguhDtbwRfzhKFGyrPN5oiAH">
-                                        <span className="nav-text"><button>DOWNLOAD RESUME</button></span>
-                                    </Nav.Link>
+                                    <button ><a style={{textDecoration: 'none'}} href="https://drive.google.com/uc?export=download&id=1jwj9JJtmdguhDtbwRfzhKFGyrPN5oiAH">DOWNLOAD RESUME</a></button>
                                 </Nav.Item>
                             </Nav>
                         </Navbar.Collapse>
@@ -59,7 +73,10 @@ const Header = () => {
                     </h1>
                     <h2><span> MERN Stack Developer</span></h2>
                     <br />
-                    <Link to="/contact"><button className="px-4 fs-2  py-1 fw-bold bg-transparent text-white">HIRE ME</button></Link>
+                    <Link to="/contact"><button className="button1">
+                        HIRE ME
+                        <i class="fas fa-arrow-right"></i>
+                    </button></Link>
                 </div>
 
             </div>

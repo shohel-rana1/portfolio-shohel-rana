@@ -2,8 +2,10 @@ import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import './App.css';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
+import Footer from './pages/Footer/Footer';
 import Header from './pages/Header/Header';
-import Home from './pages/Header/Home/Home';
+import Home from './pages/Home/Home';
+// import Home from './pages/Header/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Services from './pages/Services/Services';
 import Skills from './pages/Skills/Skills';
@@ -35,12 +37,12 @@ function App() {
             <Route path="/contact">
               <Contact></Contact>
             </Route>
-            {/* <Route path="*">
-              <NotFound></NotFound>
-            </Route> */}
+            <Route path="*">
+              {/* <NotFount */}
+            </Route>
 
           </Switch>
-          {/* <Footer></Footer> */}
+          <Footer></Footer>
         </Router>
     </div>
   );
