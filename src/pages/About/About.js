@@ -41,10 +41,11 @@ const About = () => {
                                     Front-end Developer
                                 </h6>
                             </div>
+                            <div style={{marginTop: '10px'}}>
+                                <a className="button2" href="/contact" style={{marginRight: '10px'}}>HIRE ME<i class="fas fa-arrow-right"></i></a>
+                                <a className="button2" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1jwj9JJtmdguhDtbwRfzhKFGyrPN5oiAH">DOWNLOAD RESUME<i class="fas fa-arrow-right"></i></a>
+                            </div>
                         </div>
-                        <br />
-                        <Link to="/contact" style={{ marginTop: '30px', marginRight: '10px', padding: '8px 25px', textDecoration: 'none', background: 'transparent', border: '1px solid #d4d4d4', fontSize: '15px' }} className="about-sec button">Hire Me <i class="fas fa-arrow-right"></i></Link>
-                        <a href="https://drive.google.com/uc?export=download&id=1jwj9JJtmdguhDtbwRfzhKFGyrPN5oiAH" style={{ marginTop: '30px', marginRight: '10px', padding: '8px 25px', fontSize: '15px', background: 'transparent', border: '1px solid #d4d4d4', textDecoration: 'none' }} className="about-sec button">Download Resume <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 

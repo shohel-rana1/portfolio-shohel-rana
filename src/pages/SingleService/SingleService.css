@@ -1,0 +1,22 @@
+.card{
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 5);
+    transition:transform 0.5s ease;
+    margin: 5px;
+    border-radius: 5px;
+}
+.card:hover{
+    transform:scale(1.09);
+}
+.img-wrapper {  
+    overflow: hidden; 
+  }
+  
+  .inner-img {
+    border: 0.5px solid gainsboro;
+      border-radius: 10px;
+    transition: 0.5s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.09);
+  }

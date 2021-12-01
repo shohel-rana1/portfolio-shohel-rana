@@ -5,10 +5,9 @@ import Contact from './pages/Contact/Contact';
 import Footer from './pages/Footer/Footer';
 import Header from './pages/Header/Header';
 import Home from './pages/Home/Home';
-// import Home from './pages/Header/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
 import Services from './pages/Services/Services';
-import Skills from './pages/Skills/Skills';
+import Resume from './pages/Resume/Resume';
 
 function App() {
   return (
@@ -28,8 +27,8 @@ function App() {
             <Route path="/services">
               <Services></Services>
             </Route>
-            <Route path="/skills">
-              <Skills></Skills>
+            <Route path="/resume">
+              <Resume></Resume>
             </Route>
             <Route path="/portfolio">
               <Portfolio></Portfolio>
@@ -37,10 +36,6 @@ function App() {
             <Route path="/contact">
               <Contact></Contact>
             </Route>
-            <Route path="*">
-              {/* <NotFount */}
-            </Route>
-
           </Switch>
           <Footer></Footer>
         </Router>

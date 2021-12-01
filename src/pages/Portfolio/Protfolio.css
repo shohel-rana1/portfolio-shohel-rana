@@ -33,9 +33,22 @@
 }
 .button2:hover{
     background:rgb(61, 61, 61);
-    color: #fff;
+    color:#fff;
 }
 .button2 i {
     margin-left: 10px;
     vertical-align: middle;
+}
+.img-wrapper {  
+    overflow: hidden; 
+  }
+  
+  .inner-img {
+      border: 0.5px gainsboro;
+      border-radius: 10px;
+    transition: 0.5s;
+  }
+  
+  .inner-img:hover {
+    transform: scale(1.09);
 }

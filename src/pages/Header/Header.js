@@ -24,7 +24,7 @@ const Header = () => {
     return (
         <>
             <div className="banner">
-                <Navbar collapseOnSelect expand="lg" sticky="top" className={navbar}>
+                <Navbar collapseOnSelect expand="lg" bg-light sticky="top" className={navbar}>
                     <div className="container mx-auto">
                         <Link className="navbar-brand" to="/home"><span className="logo-text">SHOHEL RANA</span></Link>
                         <Navbar.Toggle />
@@ -46,8 +46,8 @@ const Header = () => {
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link className="nav-text" eventKey="4" as={Link} to="/skills">
-                                        <span className="nav-text">SKILLS</span>
+                                    <Nav.Link className="nav-text" eventKey="4" as={Link} to="/resume">
+                                        <span className="nav-text">RESUME</span>
                                     </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>

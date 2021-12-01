@@ -1,4 +1,5 @@
 import React from 'react';
+import './SingleService.css'
 import { Card, Col, Row } from 'react-bootstrap';
 import MERNstack from '../../images/protfolio_images/react-MEAN-vs_MERN.jpg';
 import reactdev from '../../images/protfolio_images/react.png'
@@ -9,9 +10,9 @@ const SingleService = () => {
     return (
         <Row xs={1} md={3} lg={3} xl={4}>
             <Col className="d-inline-block">
-                <Card>
+                <Card className="card1">
                     <Card.Body>
-                        <Card.Img variant="top" style={{height: '200px'}} src={MERNstack} />
+                        <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={MERNstack} /></div>
                         <Card.Title>MERN Stack Developer</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the bulk of
@@ -22,9 +23,9 @@ const SingleService = () => {
                 </Card>
             </Col>
             <Col>
-                <Card>
+            <Card className="card1">
                     <Card.Body>
-                        <Card.Img variant="top" style={{height: '200px'}} src={reactdev} />
+                        <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={reactdev} /></div>
                         <Card.Title>React Developer</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the bulk of
@@ -35,9 +36,9 @@ const SingleService = () => {
                 </Card>
             </Col>
             <Col>
-                <Card >
+            <Card className="card1">
                     <Card.Body>
-                        <Card.Img variant="top" style={{height: '200px'}} src={webtdev} />
+                        <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={webtdev} /></div>
                         <Card.Title>Web Developer</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the bulk of
@@ -48,9 +49,9 @@ const SingleService = () => {
                 </Card>
             </Col>
             <Col>
-                <Card>
+            <Card className="card1">
                     <Card.Body>
-                        <Card.Img variant="top" style={{height: '200px'}} src={frontwebtdev} />
+                        <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={frontwebtdev} /></div>
                         <Card.Title>Front-end Developer</Card.Title>
                         <Card.Text>
                             Some quick example text to build on the card title and make up the bulk of
