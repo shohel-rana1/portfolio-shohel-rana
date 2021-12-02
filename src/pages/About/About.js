@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo1 from '../../images/protfolio_images/IMG_7764.JPG'
 const About = () => {
     return (
@@ -41,8 +40,8 @@ const About = () => {
                                     Front-end Developer
                                 </h6>
                             </div>
-                            <div style={{marginTop: '10px'}}>
-                                <a className="button2" href="/contact" style={{marginRight: '10px'}}>HIRE ME<i class="fas fa-arrow-right"></i></a>
+                            <div style={{ marginTop: '10px' }}>
+                                <a className="button2" href="/contact" style={{ marginRight: '10px' }}>HIRE ME<i class="fas fa-arrow-right"></i></a>
                                 <a className="button2" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/uc?export=download&id=1jwj9JJtmdguhDtbwRfzhKFGyrPN5oiAH">DOWNLOAD RESUME<i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>

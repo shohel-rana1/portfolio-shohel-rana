@@ -6,8 +6,8 @@ import Footer from './pages/Footer/Footer';
 import Header from './pages/Header/Header';
 import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
+import Resume from './pages/Resume/Resume/Resume';
 import Services from './pages/Services/Services';
-import Resume from './pages/Resume/Resume';
 
 function App() {
   return (
@@ -27,11 +27,11 @@ function App() {
             <Route path="/services">
               <Services></Services>
             </Route>
-            <Route path="/resume">
-              <Resume></Resume>
-            </Route>
             <Route path="/portfolio">
               <Portfolio></Portfolio>
+            </Route>
+            <Route path="/resume">
+              <Resume></Resume>
             </Route>
             <Route path="/contact">
               <Contact></Contact>

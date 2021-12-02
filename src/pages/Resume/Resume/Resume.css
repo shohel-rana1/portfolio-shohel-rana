@@ -1,0 +1,11 @@
+.backdroundColor{
+    background: #f9f9f9;
+}
+.resume-title{
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 1.2;
+    color: #2c7ae7;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
