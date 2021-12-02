@@ -16,7 +16,7 @@ const Protfolio = () => {
     return (
         <div className="container my-5 py-3">
             <div className=" text-center section-title">
-                <span className="subtitle">VISIT MY PORTFOLIO </span>
+                <span className="subtitle">VISIT MY RECENT PROJECT </span>
                 <h2 className="title">My Portfolio</h2>
             </div>
             <div className="mt-5">
@@ -24,7 +24,7 @@ const Protfolio = () => {
                     <Col className="d-inline-block">
                         <Card className="card1">
                             <Card.Body>
-                            <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{height: '200px'}} src={eduford} /></div>
+                                <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={eduford} /></div>
                                 <Card.Title>An educational website</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -38,7 +38,7 @@ const Protfolio = () => {
                     <Col>
                         <Card className="card1">
                             <Card.Body>
-                            <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{height: '200px'}} src={macbook} /></div>
+                                <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={macbook} /></div>
                                 <Card.Title>Mac book selling site</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -52,7 +52,7 @@ const Protfolio = () => {
                     <Col>
                         <Card className="card1">
                             <Card.Body>
-                            <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{height: '200px'}} src={buyNeeds} /></div>
+                                <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={buyNeeds} /></div>
                                 <Card.Title>A e-commerce site</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -66,7 +66,7 @@ const Protfolio = () => {
                     <Col>
                         <Card className="card1">
                             <Card.Body>
-                            <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{height: '200px'}} src={heritage} /></div>
+                                <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={heritage} /></div>
                                 <Card.Title>World heritage places</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -80,7 +80,7 @@ const Protfolio = () => {
                     <Col>
                         <Card className="card1">
                             <Card.Body>
-                            <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{height: '200px'}} src={brain} /></div>
+                                <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={brain} /></div>
                                 <Card.Title>Brainstorm learning web</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -94,7 +94,7 @@ const Protfolio = () => {
                     <Col>
                         <Card className="card1">
                             <Card.Body>
-                            <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{height: '200px'}} src={doctors} /></div>
+                                <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={doctors} /></div>
                                 <Card.Title>Doctors care hospital</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -108,7 +108,7 @@ const Protfolio = () => {
                     <Col>
                         <Card className="card1">
                             <Card.Body>
-                            <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{height: '200px'}} src={amigos} /></div>
+                                <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={amigos} /></div>
                                 <Card.Title>Amigos holiday charm</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
@@ -122,7 +122,7 @@ const Protfolio = () => {
                     <Col>
                         <Card className="card1">
                             <Card.Body>
-                            <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{height: '200px'}} src={perfume} /></div>
+                                <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '200px' }} src={perfume} /></div>
                                 <Card.Title>Luxury perfume outlet</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of

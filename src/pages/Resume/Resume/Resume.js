@@ -18,13 +18,13 @@ const Resume = () => {
                 <div className="text-center resume-title">
                     <h2>MY RESUME</h2>
                 </div>
-                <Row>
+                <Row className="mt-5">
                     <Col>
-                    <h4 className="text-left py-2 sticky-top">MY EXPERIENCE</h4>
-                    <Nav defaultActiveKey="/home" className="flex-column text-left">
-                            <Link style={{ textDecoration: 'none',backgroundColor: 'white',marginBottom: '15px'}} eventKey="link-1" to={`${url}/skills`}><i className="fab fa-wordpress-simple px-2 py-3"></i>SKILLS</Link>
-                            <Link style={{ textDecoration: 'none',backgroundColor: 'white',marginBottom: '15px'}} eventKey="link-1" to={`${url}/experience`}><i className="fab fa-wordpress-simple px-2 py-3"></i> EXPERIENCE</Link>
-                            <Link style={{ textDecoration: 'none',backgroundColor: 'white',marginBottom: '15px'}} eventKey="link-1" to={`${url}/education`}><i className="fab fa-wordpress-simple px-2 py-3"></i> EDUCATION</Link>
+                        <h4 className="text-left py-2 sticky-top">MY EXPERIENCE</h4>
+                        <Nav defaultActiveKey="/home" className="flex-column text-left">
+                            <Link style={{ textDecoration: 'none', backgroundColor: 'white', marginBottom: '15px' }} eventKey="link-1" to={`${url}/skills`}><i className="fab fa-cc-amazon-pay px-2 py-3"></i>SKILLS</Link>
+                            <Link style={{ textDecoration: 'none', backgroundColor: 'white', marginBottom: '15px' }} eventKey="link-1" to={`${url}/experience`}><i className="fas fa-arrow-alt-circle-right px-2 py-3"></i> EXPERIENCE</Link>
+                            <Link style={{ textDecoration: 'none', backgroundColor: 'white', marginBottom: '15px' }} eventKey="link-1" to={`${url}/education`}><i className="fas fa-star-half-alt px-2 py-3"></i> EDUCATION</Link>
                         </Nav>
                     </Col>
                     <Col xs={12} md={9}>
@@ -33,7 +33,7 @@ const Resume = () => {
                                 <Skills></Skills>
                             </Route>
                             <Route path={`${path}/skills`}>
-                            <Skills></Skills>
+                                <Skills></Skills>
                             </Route>
                             <Route path={`${path}/experience`}>
                                 <Experience></Experience>
