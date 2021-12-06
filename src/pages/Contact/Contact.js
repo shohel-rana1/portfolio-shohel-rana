@@ -1,7 +1,19 @@
 import React from 'react';
 import './Contact.css'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs.sendForm('service_05hcelq', 'template_yeof81c', e.target, 'user_KYhLX0Mh0hhKpkn626l9T')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+    };
     return (
         <div className="container contact-bg my-5 py-5 mx-auto">
             <div className="text-center">
@@ -37,7 +49,7 @@ const Contact = () => {
                 </div>
                 <div className="col-md-6 mt-5">
                     <div className="text-left">
-                        <form action="https://nocodeform.io/f/61a6249f113795da0ecc157c" method="POST" className="contact-form">
+                        <form  className="contact-form" onSubmit={sendEmail}>
                             <div className="row">
                                 <div className="col-sm-12 col-xs-12">
                                     <input type="text" name="name" className="form-control" placeholder="Your Name" />
@@ -45,7 +57,7 @@ const Contact = () => {
                             </div>
                             <div className="row">
                                 <div className="col-sm-6 col-xs-12">
-                                    <input type="email" name="email" className="form-control" placeholder="Your Email" />
+                                    <input type="email" name="user-email" className="form-control" placeholder="Your Email" />
                                 </div>
                                 <div className="col-sm-6 col-xs-12">
                                     <input type="text" name="subject" className="form-control" placeholder="Your Subject" />
@@ -53,7 +65,7 @@ const Contact = () => {
                             </div>
                             <div className="row">
                                 <div className="col-sm-12 col-xs-12">
-                                    <textarea  name="message" rows="5" className="form-control" placeholder="Message" />
+                                    <textarea name="message" rows="5" className="form-control" placeholder="Message" />
                                 </div>
                             </div>
                             <div className="form-group">
