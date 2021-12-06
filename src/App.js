@@ -1,4 +1,4 @@
-import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
@@ -13,32 +13,31 @@ function App() {
   return (
     <div className="App">
       <Router>
-          <Header></Header>
-          <Switch>
-            <Route exact path="/">
-              <Home></Home>
-            </Route>
-            <Route path="/home">
-              <Home></Home>
-            </Route>
-            <Route path="/about">
-              <About></About>
-            </Route>
-            <Route path="/services">
-              <Services></Services>
-            </Route>
-            <Route path="/portfolio">
-              <Portfolio></Portfolio>
-            </Route>
-            <Route path="/resume">
-              <Resume></Resume>
-            </Route>
-            <Route path="/contact">
-              <Contact></Contact>
-            </Route>
-          </Switch>
-          <Footer></Footer>
-        </Router>
+        <Switch>
+          <Route exact path="/">
+            <Home></Home>
+          </Route>
+          <Route path="/home">
+            <Home></Home>
+          </Route>
+          <Route path="/about">
+            <About></About>
+          </Route>
+          <Route path="/services">
+            <Services></Services>
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio></Portfolio>
+          </Route>
+          <Route path="/resume">
+            <Resume></Resume>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
+          </Route>
+        </Switch>
+        <Footer></Footer>
+      </Router>
     </div>
   );
 }

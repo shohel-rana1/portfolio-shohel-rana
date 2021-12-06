@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Header.css'
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const [navbar, setNavbar] = useState("navbar")
@@ -31,37 +32,39 @@ const Header = () => {
                         <Navbar.Collapse>
                             <Nav className="nav-bar">
                                 <Nav.Item>
-                                    <Nav.Link className="nav-text" aria-current="page" eventKey="1" as={Link} to="/Home">
+                                    <HashLink className="nav-text" eventKey="1" as={Link} to="/#myHome">
                                         <span className="nav-text">HOME</span>
-                                    </Nav.Link>
+                                    </HashLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link className="nav-text" eventKey="2" as={Link} to="/about">
+                                    <HashLink className="nav-text" eventKey="2" as={Link} to="/#myAbout">
                                         <span className="nav-text">ABOUT</span>
-                                    </Nav.Link>
+                                    </HashLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link className="nav-text" eventKey="3" as={Link} to="/services">
-                                        <span className="nav-text">FEATURES</span>
-                                    </Nav.Link>
+                                    <HashLink className="nav-text" eventKey="3" as={Link} to="/#myServices">
+                                        <span className="nav-text">SERVICES</span>
+                                    </HashLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link className="nav-text" eventKey="4" as={Link} to="/resume">
-                                        <span className="nav-text">RESUME</span>
-                                    </Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item>
-                                    <Nav.Link className="nav-text" eventKey="5" as={Link} to="/portfolio">
+                                    <HashLink className="nav-text" eventKey="4" as={Link} to="/#myPortfolio">
                                         <span className="nav-text">PORTFOLIO</span>
-                                    </Nav.Link>
+                                    </HashLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link className="nav-text" eventKey="6" as={Link} to="/contact">
+                                    <HashLink className="nav-text" eventKey="5" as={Link} to="/#myContact">
                                         <span className="nav-text">CONTACT</span>
-                                    </Nav.Link>
+                                    </HashLink>
+                                </Nav.Item>
+
+
+                                <Nav.Item>
+                                    <HashLink className="nav-text" eventKey="6" as={Link} to="/#myResume">
+                                        <span className="nav-text">RESUME</span>
+                                    </HashLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <button ><a style={{textDecoration: 'none'}} href="https://drive.google.com/uc?export=download&id=1jwj9JJtmdguhDtbwRfzhKFGyrPN5oiAH">DOWNLOAD RESUME</a></button>
+                                    <button ><a style={{ textDecoration: 'none'}} href="https://drive.google.com/uc?export=download&id=1jwj9JJtmdguhDtbwRfzhKFGyrPN5oiAH">DOWNLOAD RESUME</a></button>
                                 </Nav.Item>
                             </Nav>
                         </Navbar.Collapse>
