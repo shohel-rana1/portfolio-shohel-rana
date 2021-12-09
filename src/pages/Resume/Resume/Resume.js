@@ -14,7 +14,7 @@ const Resume = () => {
     let { path, url } = useRouteMatch();
 
     if (url === '/') {
-        url = '/resume'
+        url = '/home/resume'
     }
 
     return (
