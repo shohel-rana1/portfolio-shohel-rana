@@ -3,6 +3,7 @@ import './Header.css'
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
+import TypeAnimation from 'react-type-animation';
 
 const Header = () => {
     const [navbar, setNavbar] = useState("navbar")
@@ -64,7 +65,7 @@ const Header = () => {
                                     </HashLink>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <button ><a style={{ textDecoration: 'none'}} href="https://drive.google.com/uc?export=download&id=1jwj9JJtmdguhDtbwRfzhKFGyrPN5oiAH">DOWNLOAD RESUME</a></button>
+                                    <span className="nav-btn"><a href="https://drive.google.com/uc?export=download&id=1jwj9JJtmdguhDtbwRfzhKFGyrPN5oiAH">DOWNLOAD RESUME</a></span>
                                 </Nav.Item>
                             </Nav>
                         </Navbar.Collapse>
@@ -74,7 +75,19 @@ const Header = () => {
                     <h1 style={{ color: '#fffff' }}>
                         SHOHEL RANA
                     </h1>
-                    <h2><span> MERN Stack Developer</span></h2>
+                    <div style={{ width: '400px' }} >
+                        <TypeAnimation
+                        cursor={true}
+                        sequence={[
+                        'MERN Stack Developer',
+                        2000,
+                        'Full Stack Web Developer',
+                        2000,
+                        ]}
+                        wrapper="h2"
+                        repeat={Infinity}
+                        />
+                    </div>
                     <br />
                     <Link to="/contact"><button className="button1">
                         HIRE ME

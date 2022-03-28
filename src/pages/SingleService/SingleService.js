@@ -8,7 +8,7 @@ import frontwebtdev from '../../images/protfolio_images/front-end.jpg'
 
 const SingleService = () => {
     return (
-        <Row xs={1} md={3} lg={3} xl={4}>
+        <Row xs={1} md={2} lg={4} xl={4}>
             <Col className="d-inline-block">
                 <Card className="card1">
                     <Card.Body>
