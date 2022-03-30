@@ -21,15 +21,14 @@ const Protfolio = () => {
                     <h2 className="title">My Portfolio</h2>
                 </div>
                 <div className="mt-5">
-                    <Row xs={1} md={2} lg={3} xl={3} className="g-4">
+                    <Row xs={1} md={2} lg={3} xl={3} className="g-4 mx-auto">
                         <Col className="d-inline-block">
                             <Card className="card1">
                                 <Card.Body>
                                     <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '300px' }} src={eduford} /></div>
                                     <Card.Title>An educational website</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This is my first educational practice project. To build this site I use raw html and css without framework.
                                     </Card.Text>
                                     <div className="text-center">
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://shohel-rana1.github.io/eduford/">Live Site<i class="fas fa-arrow-right"></i></a>
@@ -44,11 +43,12 @@ const Protfolio = () => {
                                     <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '300px' }} src={macbook} /></div>
                                     <Card.Title>Mac book selling site</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This project is built with html, css and javaScript DOM manupulation. This is also a practice project to learn.
                                     </Card.Text>
+                                    <div className="text-center">
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://xenodochial-rosalind-282875.netlify.app/">Live Site<i class="fas fa-arrow-right"></i></a>
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://github.com/shohel-rana1/mac-book-pro-assignment-5">Client Side<i class="fas fa-arrow-right"></i></a>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -58,11 +58,12 @@ const Protfolio = () => {
                                     <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '300px' }} src={buyNeeds} /></div>
                                     <Card.Title>A e-commerce site</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This is an e-commerce practice web site which is built with reactjs framework. This site is fully responsive.
                                     </Card.Text>
-                                    <a className="button2" target="_blank" rel="noopener noreferrer" href="https://cocky-chandrasekhar-cb312d.netlify.app/">Live Site<i class="fas fa-arrow-right"></i></a>
-                                    <a className="button2" target="_blank" rel="noopener noreferrer" href="https://github.com/shohel-rana1/ranga-store-assignment-7">Client Side<i class="fas fa-arrow-right"></i></a>
+                                    <div className="text-center">
+                                        <a className="button2" target="_blank" rel="noopener noreferrer" href="https://cocky-chandrasekhar-cb312d.netlify.app/">Live Site<i class="fas fa-arrow-right"></i></a>
+                                        <a className="button2" target="_blank" rel="noopener noreferrer" href="https://github.com/shohel-rana1/ranga-store-assignment-7">Client Side<i class="fas fa-arrow-right"></i></a>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -72,11 +73,12 @@ const Protfolio = () => {
                                     <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '300px' }} src={heritage} /></div>
                                     <Card.Title>World heritage places</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This is a tour and travelling project. To build this project I use rectjs, react router dom and bootstrap.
                                     </Card.Text>
+                                    <div className="text-center">
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://world-heritage-places.netlify.app/">Live Site<i class="fas fa-arrow-right"></i></a>
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://github.com/shohel-rana1/world-heritage-places-assignment-8">Client Side<i class="fas fa-arrow-right"></i></a>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -86,11 +88,12 @@ const Protfolio = () => {
                                     <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '300px' }} src={brain} /></div>
                                     <Card.Title>Brainstorm learning web</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This is an educational website. People can purchase or enroll course to learn information technology.
                                     </Card.Text>
+                                    <div className="text-center">
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://brainstorm-learnweb.netlify.app/">Live Site<i class="fas fa-arrow-right"></i></a>
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://github.com/shohel-rana1/brainstorm-learnweb-assignment-9">Client Side<i class="fas fa-arrow-right"></i></a>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -100,11 +103,12 @@ const Protfolio = () => {
                                     <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '300px' }} src={doctors} /></div>
                                     <Card.Title>Doctors care hospital</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This is a hospital management system. To build this project I use full stack technology along with firebase.
                                     </Card.Text>
+                                    <div className="text-center">
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://doctors-care-hospital.web.app/">Live Site<i class="fas fa-arrow-right"></i></a>
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://github.com/shohel-rana1/doctors-care-hospital-assignment-10">Client Side<i class="fas fa-arrow-right"></i></a>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -114,11 +118,12 @@ const Protfolio = () => {
                                     <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '300px' }} src={amigos} /></div>
                                     <Card.Title>Amigos holiday charm</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        This is another full stack project which is developed with reactjs and nodejs. To deploy I use firebase.
                                     </Card.Text>
+                                    <div className="text-center">
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://amigos-holiday-charm.web.app/Home">Live Site<i class="fas fa-arrow-right"></i></a>
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://github.com/shohel-rana1/amigos-holiday-charm-client-assignment-11">Client Side<i class="fas fa-arrow-right"></i></a>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -128,11 +133,12 @@ const Protfolio = () => {
                                     <div className="img-wrapper"><Card.Img variant="top" className="inner-img" style={{ height: '300px' }} src={perfume} /></div>
                                     <Card.Title>Luxury perfume outlet</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
+                                        My first full stack MERN project. This is an e-commerce based website. I deployed this project on heroku.
                                     </Card.Text>
+                                    <div className="text-center">
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://luxury-perfume-outlet.web.app/home">Live Site<i class="fas fa-arrow-right"></i></a>
                                     <a className="button2" target="_blank" rel="noopener noreferrer" href="https://github.com/shohel-rana1/luxury-perfume-outlet-client-assignment-12">Client Side<i class="fas fa-arrow-right"></i></a>
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>

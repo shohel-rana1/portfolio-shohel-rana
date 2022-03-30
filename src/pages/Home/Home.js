@@ -7,8 +7,7 @@ import Resume from '../Resume/Resume/Resume';
 import Services from '../Services/Services';
 const Home = () => {
     return (
-        <div className="" id="myHome">
-            <Header />
+        <div className="container" id="myHome">
             <About></About>
             <Services></Services>
             <Resume></Resume>

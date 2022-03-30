@@ -18,7 +18,7 @@
   color: grey;
   text-decoration: none;
 }
-.nav-btn a:hover{
+.nav-btn a:hover {
   color: #2C7AE7;
 }
 .nav-text{
@@ -51,6 +51,7 @@
     background: linear-gradient(rgba(26, 25, 25, 0.8), rgba(31, 29, 29, 0.7)), url(../../images/protfolio_images/IMG_7475-01.jpeg);
     height: 600px;
     width: 100%;
+    margin: 0 auto;
     
 }
 .banner h1{

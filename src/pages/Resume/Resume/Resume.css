@@ -9,3 +9,19 @@
     margin-top: 15px;
     margin-bottom: 0;
 }
+.nav-tabs{
+    border: 0;
+}
+.nav-tabs a{
+    display: block;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #07070b;
+    background: #ffffff;
+    -webkit-box-shadow: 0 4px 15px 0 rgb(103 151 255 / 2%), 0 5px 25px 0 rgb(103 151 255 / 2%);
+    box-shadow: 0 4px 15px 0 rgb(103 151 255 / 2%), 0 5px 25px 0 rgb(103 151 255 / 2%);
+}
+.nav-tabs a:active{
+    color: #2c7ae7 !important;
+}

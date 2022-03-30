@@ -15,7 +15,7 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <div className="pt-5" id="myContact">
+        <div className="pt-5 mx-auto" id="myContact">
             <div className="container contact-bg my-5 py-5 mx-auto">
                 <div className="text-center">
                     <h5 style={{ color: '#2c7ae7', fontSize: '13px', margin: '0 0 10px' }}>Lets Talk</h5>
@@ -25,7 +25,7 @@ const Contact = () => {
                     <div className="col-md-6">
                         <div className="text-left text-white contact-info mt-5">
                             <h3>Contact Info:</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est harum asperiores voluptas, atque ipsa voluptatibus id possimus aliquid modi at ut quam.</p>
+                            <p>I am excited to hear from you. Fill free to knock directly if any needed.</p>
                             <div className="address-class">
                                 <ul>
                                     <li>
